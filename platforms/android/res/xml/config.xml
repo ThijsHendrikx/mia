@@ -5,9 +5,6 @@
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
-    <feature name="YoikScreenOrientation">
-        <param name="android-package" value="net.yoik.cordova.plugins.screenorientation.YoikScreenOrientation" />
-    </feature>
     <feature name="Compass">
         <param name="android-package" value="org.apache.cordova.deviceorientation.CompassListener" />
     </feature>
