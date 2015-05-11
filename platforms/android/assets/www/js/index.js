@@ -1,65 +1,53 @@
-/*
- * Licensed to the Apache Software Foundation (ASF) under one
- * or more contributor license agreements.  See the NOTICE file
- * distributed with this work for additional information
- * regarding copyright ownership.  The ASF licenses this file
- * to you under the Apache License, Version 2.0 (the
- * "License"); you may not use this file except in compliance
- * with the License.  You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing,
- * software distributed under the License is distributed on an
- * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
- * KIND, either express or implied.  See the License for the
- * specific language governing permissions and limitations
- * under the License.
- */
-var app = {
-    // Application Constructor
-    initialize: function() {
-        this.bindEvents();
-    },
-    // Bind Event Listeners
-    //
-    // Bind any events that are required on startup. Common events are:
-    // 'load', 'deviceready', 'offline', and 'online'.
-    bindEvents: function() {
-        document.addEventListener('deviceready', this.onDeviceReady, false);
-    },
-    // deviceready Event Handler
-    //
-    // The scope of 'this' is the event. In order to call the 'receivedEvent'
-    // function, we must explicitly call 'app.receivedEvent(...);'
-    onDeviceReady: function() {
-        app.receivedEvent('deviceready');
-
-        navigator.compass.getCurrentHeading(this.onSuccess, this.onError);
-
-    },
-    
-    // Update DOM on a Received Event
-    receivedEvent: function(id) {
-        var parentElement = document.getElementById(id);
-        var listeningElement = parentElement.querySelector('.listening');
-        var receivedElement = parentElement.querySelector('.received');
-
-        listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
-
-        console.log('Received Event: ' + id);
-    },
-
-
-    function onSuccess(heading) {
-        alert('Heading: ' + heading.magneticHeading);
-    },
-
-    // onError: Failed to get the heading
-    //
-    function onError(compassError) {
-        alert('Compass Error: ' + compassError.code);
-    }
-
+var app = app || {};
+ 
+app.watchID = null;
+ 
+ 
+app.initialize = function () {
+    document.addEventListener('deviceready', app.onDeviceReady, false);
+};
+ 
+ 
+app.onDeviceReady = function () {
+    app.receivedEvent('deviceready');
+    app.watchID = navigator.compass.watchHeading(
+        app.compassUpdate, 
+        app.compassError, { frequency : 3000 });
+};
+ 
+ 
+app.compassUpdate = function (hdg) {
+  var mh = hdg.magneticHeading;
+  app.showHeading(true, 'Heading: ' + mh);
+};
+ 
+ 
+app.compassError = function (err) {
+  var errcode = err.code;
+  app.showHeading(false, 'Compass error: ' + errcode);
+};
+ 
+ 
+app.showHeading = function (f_ok, s) {
+  var parentElem = document.getElementById('heading');
+  var nodataElem = parentElem.querySelector('.listening');
+  var dataElem   = parentElem.querySelector('.received');
+  if (f_ok) { 
+    nodataElem.setAttribute('style', 'display:none;'); 
+    dataElem.setAttribute('style', 'display:block;'); 
+    dataElem.innerHTML = s;
+  }
+  else {
+    nodataElem.setAttribute('style', 'display:block;'); 
+    dataElem.setAttribute('style', 'display:none;'); 
+    nodataElem.innerHTML = s;
+  }
+};
+ 
+ 
+app.receivedEvent = function(id) {
+    var parentElement = document.getElementById('deviceready');
+    parentElement.setAttribute('style', 'display:none;');
+    var headingElement = document.getElementById('heading');
+    headingElement.setAttribute('style', 'display:block');
 };
