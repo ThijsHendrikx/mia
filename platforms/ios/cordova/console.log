@@ -340,3 +340,20 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 
 2015-05-11 11:57:56.740 First app[6026:2091210] Resetting plugins due to page load.
 2015-05-11 11:57:56.788 First app[6026:2091210] Finished load of: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Bundle/Application/F7612249-A16A-4687-9B43-D374F15917BB/First%20app.app/www/index.html
+2015-05-11 12:41:53.151 First app[6026:2091210] THREAD WARNING: ['Compass'] took '408.927002' ms. Plugin should use a background thread.
+2015-05-11 13:11:03.889 First app[6904:2366356] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Data/Application/BF04D40B-16D2-4BA1-B5AB-B898F4A20863/Library/Cookies/Cookies.binarycookies
+2015-05-11 13:11:03.998 First app[6904:2366356] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-11 13:11:03.998 First app[6904:2366356] Multi-tasking -> Device: YES, App: YES
+2015-05-11 13:11:04.002 First app[6904:2366356] Unlimited access to network resources
+2015-05-11 13:11:04.005 First app[6904:2366356] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-11 13:11:04.253 First app[6904:2366356] Resetting plugins due to page load.
+2015-05-11 13:11:04.356 First app[6904:2366356] Finished load of: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Bundle/Application/6F974197-CA37-4596-9156-DBCA2F9DA0B5/First%20app.app/www/index.html
+2015-05-11 13:11:11.936 First app[6904:2366356] THREAD WARNING: ['Compass'] took '2155.979980' ms. Plugin should use a background thread.
+2015-05-11 13:11:16.479 First app[6904:2366356] THREAD WARNING: ['Compass'] took '1561.133057' ms. Plugin should use a background thread.

@@ -13,16 +13,22 @@ app.onDeviceReady = function () {
     app.watchID = navigator.compass.watchHeading(
         app.compassUpdate, 
         app.compassError, { frequency : 3000 });
+
+    alert("ready");
 };
  
  
 app.compassUpdate = function (hdg) {
+  alert("update");
+
   var mh = hdg.magneticHeading;
   app.showHeading(true, 'Heading: ' + mh);
 };
  
  
 app.compassError = function (err) {
+  alert("error");
+
   var errcode = err.code;
   app.showHeading(false, 'Compass error: ' + errcode);
 };
@@ -37,7 +43,7 @@ app.showHeading = function (f_ok, s) {
     dataElem.setAttribute('style', 'display:block;'); 
     dataElem.innerHTML = s;
   }
-  else {
+  else { 
     nodataElem.setAttribute('style', 'display:block;'); 
     dataElem.setAttribute('style', 'display:none;'); 
     nodataElem.innerHTML = s;
