@@ -68,3 +68,188 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 
 2015-05-01 13:01:59.310 First app[24269:1290043] Resetting plugins due to page load.
 2015-05-01 13:01:59.355 First app[24269:1290043] Finished load of: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/987364D6-B717-4DA0-97A9-A25CFA082545/data/Containers/Bundle/Application/676D718F-1EA9-425D-931C-A5C28034E348/First%20app.app/www/index.html
+2015-05-11 08:47:56.411 First app[2858:1120866] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Data/Application/AB9698C2-73E8-4E6A-9048-80514C005A86/Library/Cookies/Cookies.binarycookies
+2015-05-11 08:47:56.717 First app[2858:1120866] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-11 08:47:56.718 First app[2858:1120866] Multi-tasking -> Device: YES, App: YES
+2015-05-11 08:47:56.736 First app[2858:1120866] Unlimited access to network resources
+2015-05-11 08:47:56.747 First app[2858:1120866] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-11 08:47:57.516 First app[2858:1120866] Resetting plugins due to page load.
+2015-05-11 08:47:57.624 First app[2858:1120866] Finished load of: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Bundle/Application/F5DD7F5B-7A8E-4245-AF56-1360AE04E74B/First%20app.app/www/index.html
+2015-05-11 09:42:06.499 First app[3356:1283239] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Data/Application/7562BDAF-AE01-47D1-9EE1-14DC1B7E4234/Library/Cookies/Cookies.binarycookies
+2015-05-11 09:42:06.568 First app[3356:1283239] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-11 09:42:06.570 First app[3356:1283239] Multi-tasking -> Device: YES, App: YES
+2015-05-11 09:42:06.572 First app[3356:1283239] Unlimited access to network resources
+2015-05-11 09:42:06.575 First app[3356:1283239] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-11 09:42:06.722 First app[3356:1283239] Resetting plugins due to page load.
+2015-05-11 09:42:06.765 First app[3356:1283239] Finished load of: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Bundle/Application/BE17488E-67E7-445F-92ED-5401C0571CE6/First%20app.app/www/index.html
+2015-05-11 09:43:55.763 First app[3501:1285250] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Data/Application/845B7F06-F52B-4B18-9C83-3C774B879EF7/Library/Cookies/Cookies.binarycookies
+2015-05-11 09:43:55.827 First app[3501:1285250] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-11 09:43:55.828 First app[3501:1285250] Multi-tasking -> Device: YES, App: YES
+2015-05-11 09:43:55.830 First app[3501:1285250] Unlimited access to network resources
+2015-05-11 09:43:55.832 First app[3501:1285250] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-11 09:43:55.962 First app[3501:1285250] Resetting plugins due to page load.
+2015-05-11 09:43:56.025 First app[3501:1285250] Finished load of: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Bundle/Application/D774020C-445A-4440-88EC-0A61A387A37E/First%20app.app/www/index.html
+2015-05-11 09:44:01.097 First app[3501:1285250] THREAD WARNING: ['Compass'] took '2006.855957' ms. Plugin should use a background thread.
+2015-05-11 09:44:05.117 First app[3501:1285250] THREAD WARNING: ['Compass'] took '1777.014404' ms. Plugin should use a background thread.
+2015-05-11 09:44:07.907 First app[3501:1285250] THREAD WARNING: ['Compass'] took '2116.747070' ms. Plugin should use a background thread.
+2015-05-11 09:44:09.649 First app[3501:1285250] THREAD WARNING: ['Compass'] took '1700.858643' ms. Plugin should use a background thread.
+2015-05-11 09:44:13.557 First app[3501:1285250] THREAD WARNING: ['Compass'] took '1634.367920' ms. Plugin should use a background thread.
+2015-05-11 09:44:15.663 First app[3501:1285250] THREAD WARNING: ['Compass'] took '1419.789062' ms. Plugin should use a background thread.
+2015-05-11 09:44:17.082 First app[3501:1285250] THREAD WARNING: ['Compass'] took '1377.837891' ms. Plugin should use a background thread.
+2015-05-11 09:44:47.384 First app[3501:1285250] THREAD WARNING: ['Compass'] took '28029.839111' ms. Plugin should use a background thread.
+2015-05-11 09:44:47.386 First app[3501:1285263] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-05-11 09:44:51.514 First app[3501:1285250] THREAD WARNING: ['Compass'] took '3443.124268' ms. Plugin should use a background thread.
+2015-05-11 09:44:52.739 First app[3501:1285250] THREAD WARNING: ['Compass'] took '1185.273926' ms. Plugin should use a background thread.
+2015-05-11 09:44:55.472 First app[3643:1286195] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Data/Application/3BDF9AD2-92EE-4CCA-9C6B-C11EFB373C1E/Library/Cookies/Cookies.binarycookies
+2015-05-11 09:44:55.534 First app[3643:1286195] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-11 09:44:55.535 First app[3643:1286195] Multi-tasking -> Device: YES, App: YES
+2015-05-11 09:44:55.537 First app[3643:1286195] Unlimited access to network resources
+2015-05-11 09:44:55.539 First app[3643:1286195] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-11 09:44:55.666 First app[3643:1286195] Resetting plugins due to page load.
+2015-05-11 09:44:55.700 First app[3643:1286195] Finished load of: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Bundle/Application/0C8ECB47-C5A3-4671-9306-02124FB20CEF/First%20app.app/www/index.html
+2015-05-11 09:45:00.639 First app[3643:1286195] THREAD WARNING: ['Compass'] took '1914.174805' ms. Plugin should use a background thread.
+2015-05-11 09:46:26.736 First app[3776:1287732] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Data/Application/2358121C-1F9E-4690-9E89-1592AB951C21/Library/Cookies/Cookies.binarycookies
+2015-05-11 09:46:26.829 First app[3776:1287732] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-11 09:46:26.829 First app[3776:1287732] Multi-tasking -> Device: YES, App: YES
+2015-05-11 09:46:26.831 First app[3776:1287732] Unlimited access to network resources
+2015-05-11 09:46:26.833 First app[3776:1287732] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-11 09:46:26.945 First app[3776:1287732] Resetting plugins due to page load.
+2015-05-11 09:46:26.978 First app[3776:1287732] Finished load of: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Bundle/Application/DD22C763-25B3-44DB-BF88-8FC39F0BC669/First%20app.app/www/index.html
+2015-05-11 09:46:31.740 First app[3776:1287732] THREAD WARNING: ['Compass'] took '1736.265381' ms. Plugin should use a background thread.
+2015-05-11 09:46:39.165 First app[3776:1287732] THREAD WARNING: ['Compass'] took '4906.712891' ms. Plugin should use a background thread.
+2015-05-11 09:46:54.812 First app[3776:1287732] THREAD WARNING: ['Compass'] took '15167.789795' ms. Plugin should use a background thread.
+2015-05-11 09:46:54.814 First app[3776:1287744] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-05-11 09:53:42.518 First app[3776:1287732] THREAD WARNING: ['Compass'] took '405187.277832' ms. Plugin should use a background thread.
+2015-05-11 09:53:42.539 First app[3776:1287744] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-05-11 09:53:47.237 First app[4068:1295070] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Data/Application/00860B21-A3D6-4967-9BFE-2D7D008CCAD5/Library/Cookies/Cookies.binarycookies
+2015-05-11 09:53:47.408 First app[4068:1295070] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-11 09:53:47.409 First app[4068:1295070] Multi-tasking -> Device: YES, App: YES
+2015-05-11 09:53:47.421 First app[4068:1295070] Unlimited access to network resources
+2015-05-11 09:53:47.424 First app[4068:1295070] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-11 09:53:47.654 First app[4068:1295070] Resetting plugins due to page load.
+2015-05-11 09:53:47.742 First app[4068:1295070] Finished load of: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Bundle/Application/832D7557-A761-44D1-9533-A4958073213E/First%20app.app/www/index.html
+2015-05-11 09:53:52.518 First app[4068:1295070] THREAD WARNING: ['Compass'] took '1739.218994' ms. Plugin should use a background thread.
+2015-05-11 09:54:16.233 First app[4206:1296272] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Data/Application/415E4CE6-6D54-4BCF-8C70-A9E42CC27F01/Library/Cookies/Cookies.binarycookies
+2015-05-11 09:54:16.305 First app[4206:1296272] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-11 09:54:16.305 First app[4206:1296272] Multi-tasking -> Device: YES, App: YES
+2015-05-11 09:54:16.307 First app[4206:1296272] Unlimited access to network resources
+2015-05-11 09:54:16.309 First app[4206:1296272] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-11 09:54:16.421 First app[4206:1296272] Resetting plugins due to page load.
+2015-05-11 09:54:16.450 First app[4206:1296272] Finished load of: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Bundle/Application/523A4F42-5626-453E-AD2D-AF56CB4EE7DD/First%20app.app/www/index.html
+2015-05-11 09:54:21.663 First app[4206:1296272] THREAD WARNING: ['Compass'] took '2186.071777' ms. Plugin should use a background thread.
+2015-05-11 09:57:44.425 First app[4206:1296272] THREAD WARNING: ['Compass'] took '199840.208984' ms. Plugin should use a background thread.
+2015-05-11 09:57:44.427 First app[4206:1296320] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-05-11 09:57:52.804 First app[4362:1299731] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Data/Application/D92DE66B-6B85-4907-AE3A-BF46D29B7D52/Library/Cookies/Cookies.binarycookies
+2015-05-11 09:57:52.862 First app[4362:1299731] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-11 09:57:52.862 First app[4362:1299731] Multi-tasking -> Device: YES, App: YES
+2015-05-11 09:57:52.864 First app[4362:1299731] Unlimited access to network resources
+2015-05-11 09:57:52.866 First app[4362:1299731] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-11 09:57:53.003 First app[4362:1299731] Resetting plugins due to page load.
+2015-05-11 09:57:53.034 First app[4362:1299731] Finished load of: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Bundle/Application/52A5081F-A436-49F7-A65B-25D46214F841/First%20app.app/www/index.html
+2015-05-11 09:57:58.031 First app[4362:1299731] THREAD WARNING: ['Compass'] took '1971.921875' ms. Plugin should use a background thread.
+2015-05-11 09:58:17.947 First app[4494:1300447] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Data/Application/A209B29A-2B1C-484F-9929-4E0D9D717B8D/Library/Cookies/Cookies.binarycookies
+2015-05-11 09:58:18.010 First app[4494:1300447] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-11 09:58:18.011 First app[4494:1300447] Multi-tasking -> Device: YES, App: YES
+2015-05-11 09:58:18.012 First app[4494:1300447] Unlimited access to network resources
+2015-05-11 09:58:18.015 First app[4494:1300447] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-11 09:58:18.146 First app[4494:1300447] Resetting plugins due to page load.
+2015-05-11 09:58:18.177 First app[4494:1300447] Finished load of: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Bundle/Application/260AD762-2BA9-4528-A612-2A0D2CAADC8D/First%20app.app/www/index.html
+2015-05-11 09:58:22.842 First app[4494:1300447] THREAD WARNING: ['Compass'] took '1639.164795' ms. Plugin should use a background thread.
+2015-05-11 10:00:14.512 First app[4632:1301737] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Data/Application/998F9B02-C0A8-4FEE-9717-AF65C65366BC/Library/Cookies/Cookies.binarycookies
+2015-05-11 10:00:14.579 First app[4632:1301737] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-11 10:00:14.579 First app[4632:1301737] Multi-tasking -> Device: YES, App: YES
+2015-05-11 10:00:14.581 First app[4632:1301737] Unlimited access to network resources
+2015-05-11 10:00:14.583 First app[4632:1301737] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-11 10:00:14.707 First app[4632:1301737] Resetting plugins due to page load.
+2015-05-11 10:00:14.738 First app[4632:1301737] Finished load of: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Bundle/Application/7457B92F-82DC-4C86-89D7-357AC0085DC4/First%20app.app/www/index.html
+2015-05-11 10:00:19.340 First app[4632:1301737] THREAD WARNING: ['Compass'] took '1576.226074' ms. Plugin should use a background thread.
+2015-05-11 10:00:54.209 First app[4632:1301737] THREAD WARNING: ['Compass'] took '32484.054199' ms. Plugin should use a background thread.
+2015-05-11 10:00:54.210 First app[4632:1301762] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-05-11 10:00:56.662 First app[4632:1301737] THREAD WARNING: ['Compass'] took '1840.706787' ms. Plugin should use a background thread.
+2015-05-11 10:01:02.226 First app[4757:1302465] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Data/Application/3344AEF7-9CCA-47A7-B237-CE8AE718198C/Library/Cookies/Cookies.binarycookies
+2015-05-11 10:01:02.291 First app[4757:1302465] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-11 10:01:02.292 First app[4757:1302465] Multi-tasking -> Device: YES, App: YES
+2015-05-11 10:01:02.293 First app[4757:1302465] Unlimited access to network resources
+2015-05-11 10:01:02.296 First app[4757:1302465] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-11 10:01:02.426 First app[4757:1302465] Resetting plugins due to page load.
+2015-05-11 10:01:02.460 First app[4757:1302465] Finished load of: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Bundle/Application/C23D5C23-A5E0-480B-8711-CA47ABA44BB6/First%20app.app/www/index.html
+2015-05-11 10:01:09.667 First app[4757:1302465] THREAD WARNING: ['Compass'] took '4179.467773' ms. Plugin should use a background thread.
+2015-05-11 11:45:51.338 First app[4757:1302465] THREAD WARNING: ['Compass'] took '6278670.645996' ms. Plugin should use a background thread.
+2015-05-11 11:45:51.381 First app[4757:1302497] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
