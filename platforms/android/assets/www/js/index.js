@@ -7,8 +7,8 @@ app.translationRight = null;
 app.rotationLeft = null;
 app.rotationRight = null;
 
-app.prevRotations = [0,0,0];
-app.prevTranslations = [0,0,0];
+app.currentRotation = 0;
+app.currentTranslation = 0;
 
 app.translationWidth = 0;
 
@@ -39,22 +39,21 @@ app.onDeviceReady = function () {
         var tiltFB = eventData.beta;
         var dir = eventData.alpha;
 
-        app.prevRotations.shift();
-        app.prevRotations.push(tiltFB);
+        var normalizedRotation = app.currentRotation = app.currentRotation + ( (tiltFB - app.currentRotation) * .1);
+        var normalizedTranslation = app.currentTranslation = app.currentTranslation + ( (dir - app.currentTranslation) * .1);
 
-        app.prevTranslations.shift();
-        app.prevTranslations.push(dir);
+        if( Math.abs(dir - app.currentTranslation) > 320){
+          normalizedTranslation = dir;
+        }
 
-        var normalizedRotation = tiltFB;
-        var normalizedTranslation = dir;
+        app.rotationLeft.style.webkitTransform = "rotate(" + - normalizedRotation + "deg)";
+        app.rotationRight.style.webkitTransform = "rotate("+ - normalizedRotation + "deg)";
 
-        app.rotationLeft.style.webkitTransform = "rotate("+ -normalizedRotation +"deg)";
-        app.rotationRight.style.webkitTransform = "rotate("+ -normalizedRotation +"deg)";
 
-        app.translationLeft.style.left =  ((360 - Math.round(normalizedTranslation)) / 360) * -(app.translationWidth / 2) + "px";
-        app.translationRight.style.left = ((360 - Math.round(normalizedTranslation)) / 360) * -(app.translationWidth / 2) + "px";
+        app.translationLeft.style.left =  Math.round( ((360 - normalizedTranslation) / 360) * - (app.translationWidth / 2) ) + "px";
+        app.translationRight.style.left = Math.round( ((360 - normalizedTranslation) / 360) * - (app.translationWidth / 2) ) + "px";
 
-      //  app.showDebugInfo(tiltLR,tiltFB,((360 - Math.round(normalizedTranslation)) / 360));
+        app.showDebugInfo(tiltLR,tiltFB,dir);
 
     }, false);
   
@@ -72,7 +71,7 @@ app.showDebugInfo = function(tiltLR,tiltFB,dir){
 
   document.getElementById("doTiltLR").innerHTML = Math.round(tiltLR);
   document.getElementById("doTiltFB").innerHTML = Math.round(tiltFB);
-  document.getElementById("doDirection").innerHTML = dir;
+  document.getElementById("doDirection").innerHTML = Math.round(dir);
 
 }
 
