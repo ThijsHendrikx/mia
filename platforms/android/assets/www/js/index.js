@@ -45,8 +45,8 @@ app.onDeviceReady = function () {
         app.prevTranslations.shift();
         app.prevTranslations.push(dir);
 
-        var normalizedRotation = (app.prevRotations[0] + app.prevRotations[1] + app.prevRotations[2]) / 3; 
-        var normalizedTranslation = (app.prevTranslations[0] + app.prevTranslations[1] + app.prevTranslations[2]) / 3; 
+        var normalizedRotation = tiltFB;
+        var normalizedTranslation = dir;
 
         app.rotationLeft.style.webkitTransform = "rotate("+ -normalizedRotation +"deg)";
         app.rotationRight.style.webkitTransform = "rotate("+ -normalizedRotation +"deg)";
