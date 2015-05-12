@@ -14,7 +14,7 @@ app.onDeviceReady = function () {
         app.compassUpdate, 
         app.compassError, { frequency : 3000 });
 
-    alert("ready");
+    alert(app.watchId);
 };
  
  

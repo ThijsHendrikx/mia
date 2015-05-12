@@ -1,6 +1,7 @@
 var app = app || {};
  
 app.watchID = null;
+app.dataElem = null;
  
  
 app.initialize = function () {
@@ -9,51 +10,22 @@ app.initialize = function () {
  
  
 app.onDeviceReady = function () {
-    app.receivedEvent('deviceready');
+
     app.watchID = navigator.compass.watchHeading(
         app.compassUpdate, 
-        app.compassError, { frequency : 3000 });
+        app.compassError, { frequency : 10 });
 
-    alert("ready");
+    app.dataElem   = document.getElementById("outputLabel");
+
+    app.dataElem.innerHTML = "Waiting for compass";
 };
  
  
 app.compassUpdate = function (hdg) {
-  alert("update");
-
-  var mh = hdg.magneticHeading;
-  app.showHeading(true, 'Heading: ' + mh);
+  app.dataElem.innerHTML = parseInt(hdg.magneticHeading);
 };
  
  
 app.compassError = function (err) {
-  alert("error");
-
-  var errcode = err.code;
-  app.showHeading(false, 'Compass error: ' + errcode);
-};
- 
- 
-app.showHeading = function (f_ok, s) {
-  var parentElem = document.getElementById('heading');
-  var nodataElem = parentElem.querySelector('.listening');
-  var dataElem   = parentElem.querySelector('.received');
-  if (f_ok) { 
-    nodataElem.setAttribute('style', 'display:none;'); 
-    dataElem.setAttribute('style', 'display:block;'); 
-    dataElem.innerHTML = s;
-  }
-  else { 
-    nodataElem.setAttribute('style', 'display:block;'); 
-    dataElem.setAttribute('style', 'display:none;'); 
-    nodataElem.innerHTML = s;
-  }
-};
- 
- 
-app.receivedEvent = function(id) {
-    var parentElement = document.getElementById('deviceready');
-    parentElement.setAttribute('style', 'display:none;');
-    var headingElement = document.getElementById('heading');
-    headingElement.setAttribute('style', 'display:block');
+  app.dataElem.innerHTML = err.code;
 };
