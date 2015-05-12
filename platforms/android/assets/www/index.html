@@ -17,31 +17,48 @@
     <body>
    
 
-      <div class="main">
-      <h2>Device Orientation</h2>
-      <table>
-        <tr>
-          <td>Event Supported</td>
-          <td id="doEvent"></td>
-        </tr>
-        <tr>
-          <td>Tilt Left/Right [gamma]</td>
-          <td id="doTiltLR"></td>
-        </tr>
-        <tr>
-          <td>Tilt Front/Back [beta]</td>
-          <td id="doTiltFB"></td>
-        </tr>
-        <tr>
-          <td>Direction [alpha]</td>
-          <td id="doDirection"></td>
-        </tr>
-       </table>
+    <div id="imgleft">
+        <div class="rotationWrapper">
+            <div class="translationWrapper">
+                <img class="img" src="img/testImg1.jpg"/><img class="img" src="img/testImg1.jpg"/>
+            </div>
+        </div>
     </div>
 
-    <div class="container" style="perspective: 300;">
-      <img src="icon.png" id="imgLogo" class="logo">
+
+    <div id="imgright">
+        <div class="rotationWrapper">
+            <div class="translationWrapper">
+                <img class="img" src="img/testImg1.jpg"/><img class="img" src="img/testImg1.jpg"/>
+            </div>
+        </div>
     </div>
+
+
+
+
+
+    <div id="debug">
+        <table>
+            <tr>
+              <td>Event Supported</td>
+              <td id="doEvent"></td>
+            </tr>
+            <tr>
+              <td>Tilt Left/Right [gamma]</td>
+              <td id="doTiltLR"></td>
+            </tr>
+            <tr>
+              <td>Tilt Front/Back [beta]</td>
+              <td id="doTiltFB"></td>
+            </tr>
+            <tr>
+              <td>Direction [alpha]</td>
+              <td id="doDirection"></td>
+            </tr>
+        </table>
+    </div>
+
        
    
     <script type="text/javascript" src="cordova.js"></script>
