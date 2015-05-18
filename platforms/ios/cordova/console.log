@@ -392,3 +392,269 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 
 2015-05-18 10:46:03.324 First app[1325:103682] Resetting plugins due to page load.
 2015-05-18 10:46:03.434 First app[1325:103682] Finished load of: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Bundle/Application/BA4C2362-8FE2-4BE2-A728-E6FE8379D6BA/First%20app.app/www/index.html
+2015-05-18 10:53:19.517 Architry[1593:110078] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Data/Application/4F05F64C-AF50-4C13-B2AF-B559EEAB1A74/Library/Cookies/Cookies.binarycookies
+2015-05-18 10:53:19.609 Architry[1593:110078] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-18 10:53:19.609 Architry[1593:110078] Multi-tasking -> Device: YES, App: YES
+2015-05-18 10:53:19.611 Architry[1593:110078] Unlimited access to network resources
+2015-05-18 10:53:19.615 Architry[1593:110078] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-18 10:53:19.941 Architry[1593:110078] Resetting plugins due to page load.
+2015-05-18 10:53:20.008 Architry[1593:110078] Finished load of: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Bundle/Application/6BF52921-BEED-4C72-A98F-72DECAB59C79/Architry.app/www/index.html
+2015-05-18 10:58:07.332 Architry[1780:115759] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Data/Application/10ED79A8-062A-47A6-9132-6217891BC265/Library/Cookies/Cookies.binarycookies
+2015-05-18 10:58:07.402 Architry[1780:115759] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-18 10:58:07.402 Architry[1780:115759] Multi-tasking -> Device: YES, App: YES
+2015-05-18 10:58:07.404 Architry[1780:115759] Unlimited access to network resources
+2015-05-18 10:58:07.436 Architry[1780:115759] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-18 10:58:07.571 Architry[1780:115759] Resetting plugins due to page load.
+2015-05-18 10:58:07.607 Architry[1780:115759] Finished load of: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Bundle/Application/DE090CFE-D23D-4344-84BC-064CD026C668/Architry.app/www/index.html
+2015-05-18 10:59:50.561 Architry[1931:117796] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Data/Application/64D82181-D1CB-4E7B-8DA6-D271CDCFD3AB/Library/Cookies/Cookies.binarycookies
+2015-05-18 10:59:50.721 Architry[1931:117796] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-18 10:59:50.722 Architry[1931:117796] Multi-tasking -> Device: YES, App: YES
+2015-05-18 10:59:50.725 Architry[1931:117796] Unlimited access to network resources
+2015-05-18 10:59:50.764 Architry[1931:117796] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-18 10:59:50.910 Architry[1931:117796] Resetting plugins due to page load.
+2015-05-18 10:59:50.953 Architry[1931:117796] Finished load of: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Bundle/Application/D7DB26B2-94D7-4FC7-BCF5-7BA17CBEB8A7/Architry.app/www/index.html
+2015-05-18 11:01:46.919 Architry[2088:120640] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Data/Application/23B1DD40-33DA-4B04-B533-BC7024D10E77/Library/Cookies/Cookies.binarycookies
+2015-05-18 11:01:47.032 Architry[2088:120640] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-18 11:01:47.033 Architry[2088:120640] Multi-tasking -> Device: YES, App: YES
+2015-05-18 11:01:47.035 Architry[2088:120640] Unlimited access to network resources
+2015-05-18 11:01:47.080 Architry[2088:120640] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-18 11:01:47.239 Architry[2088:120640] Resetting plugins due to page load.
+2015-05-18 11:01:47.296 Architry[2088:120640] Finished load of: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Bundle/Application/801C557A-F987-44F2-84A4-AFB6D7088FEF/Architry.app/www/index.html
+2015-05-18 11:12:48.728 Architry[2253:124700] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Data/Application/B8E4A47C-F910-45A1-A33E-677AD59E4C84/Library/Cookies/Cookies.binarycookies
+2015-05-18 11:12:48.844 Architry[2253:124700] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-18 11:12:48.845 Architry[2253:124700] Multi-tasking -> Device: YES, App: YES
+2015-05-18 11:12:48.847 Architry[2253:124700] Unlimited access to network resources
+2015-05-18 11:12:48.880 Architry[2253:124700] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-18 11:12:49.037 Architry[2253:124700] Resetting plugins due to page load.
+2015-05-18 11:12:49.078 Architry[2253:124700] Finished load of: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Bundle/Application/1E7C4BF3-E98F-4BED-94EE-4942ADF1DD5B/Architry.app/www/index.html
+2015-05-18 11:13:18.705 Architry[2399:125720] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Data/Application/508AD20D-DDB6-4534-86FF-1E8B5A26D087/Library/Cookies/Cookies.binarycookies
+2015-05-18 11:13:18.846 Architry[2399:125720] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-18 11:13:18.847 Architry[2399:125720] Multi-tasking -> Device: YES, App: YES
+2015-05-18 11:13:18.849 Architry[2399:125720] Unlimited access to network resources
+2015-05-18 11:13:18.923 Architry[2399:125720] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-18 11:13:19.239 Architry[2399:125720] Resetting plugins due to page load.
+2015-05-18 11:13:19.274 Architry[2399:125720] Finished load of: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Bundle/Application/6610EECF-72D0-448B-834E-4EA3EB3C94E9/Architry.app/www/index.html
+2015-05-18 11:15:25.941 Architry[2555:128453] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Data/Application/A76DB146-A988-4F2B-AAF5-7FA804AE982A/Library/Cookies/Cookies.binarycookies
+2015-05-18 11:15:26.047 Architry[2555:128453] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-18 11:15:26.048 Architry[2555:128453] Multi-tasking -> Device: YES, App: YES
+2015-05-18 11:15:26.051 Architry[2555:128453] Unlimited access to network resources
+2015-05-18 11:15:26.081 Architry[2555:128453] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-18 11:15:26.370 Architry[2555:128453] Resetting plugins due to page load.
+2015-05-18 11:15:26.405 Architry[2555:128453] Finished load of: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Bundle/Application/5D46CD68-F23A-4A5A-9342-153273F79AEE/Architry.app/www/index.html
+2015-05-18 11:15:53.099 Architry[2691:129158] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Data/Application/F83B4AA7-FA1F-405D-BC1D-2EABC0C686B2/Library/Cookies/Cookies.binarycookies
+2015-05-18 11:15:53.250 Architry[2691:129158] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-18 11:15:53.250 Architry[2691:129158] Multi-tasking -> Device: YES, App: YES
+2015-05-18 11:15:53.253 Architry[2691:129158] Unlimited access to network resources
+2015-05-18 11:15:53.301 Architry[2691:129158] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-18 11:15:53.461 Architry[2691:129158] Resetting plugins due to page load.
+2015-05-18 11:15:54.841 Architry[2691:129158] Finished load of: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Bundle/Application/933ECA28-06DC-4EF8-AFF8-CD7A937812E8/Architry.app/www/index.html
+2015-05-18 11:16:23.763 Architry[2839:130025] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Data/Application/A0FF6677-E23E-45CE-A835-C6BA853B3096/Library/Cookies/Cookies.binarycookies
+2015-05-18 11:16:23.898 Architry[2839:130025] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-18 11:16:23.899 Architry[2839:130025] Multi-tasking -> Device: YES, App: YES
+2015-05-18 11:16:23.901 Architry[2839:130025] Unlimited access to network resources
+2015-05-18 11:16:23.949 Architry[2839:130025] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-18 11:16:24.072 Architry[2839:130025] Resetting plugins due to page load.
+2015-05-18 11:16:24.115 Architry[2839:130025] Finished load of: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Bundle/Application/CDA39BF2-7FB2-4D35-8310-742A6B78FBE9/Architry.app/www/index.html
+2015-05-18 11:17:04.239 Architry[2977:131375] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Data/Application/EC8C4E46-E9B6-4CB4-BD36-7D3C82D8AB8E/Library/Cookies/Cookies.binarycookies
+2015-05-18 11:17:04.375 Architry[2977:131375] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-18 11:17:04.376 Architry[2977:131375] Multi-tasking -> Device: YES, App: YES
+2015-05-18 11:17:04.378 Architry[2977:131375] Unlimited access to network resources
+2015-05-18 11:17:04.430 Architry[2977:131375] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-18 11:17:04.585 Architry[2977:131375] Resetting plugins due to page load.
+2015-05-18 11:17:04.633 Architry[2977:131375] Finished load of: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Bundle/Application/40556D67-89BB-4FB7-A3D0-A26B6A2A986E/Architry.app/www/index.html
+2015-05-18 11:18:28.839 Architry[3130:132774] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Data/Application/D77CAD6A-8B14-492E-9214-25B3F5F6074F/Library/Cookies/Cookies.binarycookies
+2015-05-18 11:18:28.983 Architry[3130:132774] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-18 11:18:28.983 Architry[3130:132774] Multi-tasking -> Device: YES, App: YES
+2015-05-18 11:18:28.986 Architry[3130:132774] Unlimited access to network resources
+2015-05-18 11:18:29.030 Architry[3130:132774] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-18 11:18:29.162 Architry[3130:132774] Resetting plugins due to page load.
+2015-05-18 11:18:29.206 Architry[3130:132774] Finished load of: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Bundle/Application/0B354268-0082-4570-BD57-889250ED1F00/Architry.app/www/index.html
+2015-05-18 11:21:27.241 Architry[3274:135748] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Data/Application/A3F65DAF-41F2-4B22-8F1C-1C6B06741743/Library/Cookies/Cookies.binarycookies
+2015-05-18 11:21:27.373 Architry[3274:135748] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-18 11:21:27.373 Architry[3274:135748] Multi-tasking -> Device: YES, App: YES
+2015-05-18 11:21:27.376 Architry[3274:135748] Unlimited access to network resources
+2015-05-18 11:21:27.420 Architry[3274:135748] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-18 11:21:27.564 Architry[3274:135748] Resetting plugins due to page load.
+2015-05-18 11:21:27.607 Architry[3274:135748] Finished load of: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Bundle/Application/3F7EA3D6-1B4D-47EB-87E5-0242E9FAC32F/Architry.app/www/index.html
+2015-05-18 11:25:58.146 Architry[3431:139459] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Data/Application/C2CBFAE7-BA3D-4632-AAF8-0DF9636D6E5F/Library/Cookies/Cookies.binarycookies
+2015-05-18 11:25:58.213 Architry[3431:139459] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-18 11:25:58.213 Architry[3431:139459] Multi-tasking -> Device: YES, App: YES
+2015-05-18 11:25:58.215 Architry[3431:139459] Unlimited access to network resources
+2015-05-18 11:25:58.244 Architry[3431:139459] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-18 11:25:58.379 Architry[3431:139459] Resetting plugins due to page load.
+2015-05-18 11:25:58.416 Architry[3431:139459] Finished load of: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Bundle/Application/A1572F55-020A-4978-9B53-14A184201D77/Architry.app/www/index.html
+2015-05-18 11:26:35.284 Architry[3575:140508] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Data/Application/40DEA41D-8E92-4497-88EF-B099750229A6/Library/Cookies/Cookies.binarycookies
+2015-05-18 11:26:35.419 Architry[3575:140508] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-18 11:26:35.419 Architry[3575:140508] Multi-tasking -> Device: YES, App: YES
+2015-05-18 11:26:35.421 Architry[3575:140508] Unlimited access to network resources
+2015-05-18 11:26:35.474 Architry[3575:140508] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-18 11:26:35.597 Architry[3575:140508] Resetting plugins due to page load.
+2015-05-18 11:26:35.635 Architry[3575:140508] Finished load of: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Bundle/Application/A2AC6451-7882-4612-A6A9-B957F419941F/Architry.app/www/index.html#!vrviewer
+2015-05-18 11:26:52.265 Architry[3712:141156] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Data/Application/F322FDFA-EA72-43B8-912B-BF4E4F9A8286/Library/Cookies/Cookies.binarycookies
+2015-05-18 11:26:52.400 Architry[3712:141156] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-18 11:26:52.401 Architry[3712:141156] Multi-tasking -> Device: YES, App: YES
+2015-05-18 11:26:52.404 Architry[3712:141156] Unlimited access to network resources
+2015-05-18 11:26:52.450 Architry[3712:141156] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-18 11:26:52.596 Architry[3712:141156] Resetting plugins due to page load.
+2015-05-18 11:26:52.633 Architry[3712:141156] Finished load of: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Bundle/Application/6227F0C6-80A8-4995-8BC8-33FF0FCCC5A7/Architry.app/www/index.html
+2015-05-18 11:31:01.038 Architry[3866:144494] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Data/Application/1BB08BBA-DB56-4525-B034-A43C72DA9AA6/Library/Cookies/Cookies.binarycookies
+2015-05-18 11:31:01.119 Architry[3866:144494] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-18 11:31:01.119 Architry[3866:144494] Multi-tasking -> Device: YES, App: YES
+2015-05-18 11:31:01.121 Architry[3866:144494] Unlimited access to network resources
+2015-05-18 11:31:01.158 Architry[3866:144494] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-18 11:31:01.290 Architry[3866:144494] Resetting plugins due to page load.
+2015-05-18 11:31:01.328 Architry[3866:144494] Finished load of: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Bundle/Application/24657A4B-4347-419D-A716-1075845E027A/Architry.app/www/index.html
+2015-05-18 11:31:59.652 First app[4019:146230] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Data/Application/A9438A6F-4EE8-4B57-BD63-BA94D7D2D661/Library/Cookies/Cookies.binarycookies
+2015-05-18 11:31:59.825 First app[4019:146230] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-18 11:31:59.825 First app[4019:146230] Multi-tasking -> Device: YES, App: YES
+2015-05-18 11:31:59.828 First app[4019:146230] Unlimited access to network resources
+2015-05-18 11:31:59.899 First app[4019:146230] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-18 11:32:00.208 First app[4019:146230] Resetting plugins due to page load.
+2015-05-18 11:32:00.239 First app[4019:146230] Finished load of: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Bundle/Application/8C335200-1A01-4440-BB66-3A04F7A2B5EB/First%20app.app/www/index.html
+2015-05-18 11:35:00.584 First app[4210:149960] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Data/Application/5A19855C-77E2-45E8-B903-CBBBCB60B543/Library/Cookies/Cookies.binarycookies
+2015-05-18 11:35:00.658 First app[4210:149960] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-18 11:35:00.659 First app[4210:149960] Multi-tasking -> Device: YES, App: YES
+2015-05-18 11:35:00.661 First app[4210:149960] Unlimited access to network resources
+2015-05-18 11:35:00.710 First app[4210:149960] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-18 11:35:00.876 First app[4210:149960] Resetting plugins due to page load.
+2015-05-18 11:35:00.924 First app[4210:149960] Finished load of: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Bundle/Application/9184D339-4CF8-4C23-8634-6E5AE5FF4650/First%20app.app/www/index.html
+2015-05-18 11:38:44.715 First app[4545:154991] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Data/Application/25505509-0ADF-4DA2-92A0-5A67662E686E/Library/Cookies/Cookies.binarycookies
+2015-05-18 11:38:44.817 First app[4545:154991] Apache Cordova native platform version 3.8.0 is starting.
+2015-05-18 11:38:44.818 First app[4545:154991] Multi-tasking -> Device: YES, App: YES
+2015-05-18 11:38:44.820 First app[4545:154991] Unlimited access to network resources
+2015-05-18 11:38:44.882 First app[4545:154991] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-05-18 11:38:45.048 First app[4545:154991] Resetting plugins due to page load.
+2015-05-18 11:38:45.088 First app[4545:154991] Finished load of: file:///Users/thijs/Library/Developer/CoreSimulator/Devices/B6C35B00-3668-408D-9F5C-5AA701EC03DD/data/Containers/Bundle/Application/CEAD62B3-2124-4B93-B2C4-C45E806BF911/First%20app.app/www/index.html
