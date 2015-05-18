@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="edu.fontys.sm.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <preference name="loglevel" value="DEBUG" />
     <feature name="Whitelist">
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
@@ -11,7 +11,7 @@
     <allow-intent href="market:*" />
     <name>First app</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Virtual reality architecture visualisation
     </description>
     <author email="support@phonegap.com" href="http://phonegap.com">
         PhoneGap Team

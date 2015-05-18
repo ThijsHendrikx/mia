@@ -13,13 +13,16 @@ simulator.currentTranslation = 0;
 simulator.translationWidth = 0;
 
 
-simulator.start = function () {
+simulator.start = function (el) {
 
-  simulator.rotationLeft  = document.getElementById("imgleft").querySelector(".rotationWrsimulatorer");
-  simulator.rotationRight = document.getElementById("imgright").querySelector(".rotationWrsimulatorer");
 
-  simulator.translationLeft  = simulator.rotationLeft.querySelector(".translationWrsimulatorer");
-  simulator.translationRight = simulator.rotationRight.querySelector(".translationWrsimulatorer");
+  simulator.rotationLeft  = el.querySelector(".imgleft").querySelector(".rotationWrapper");
+  simulator.rotationRight = el.querySelector(".imgright").querySelector(".rotationWrapper");
+
+  alert(simulator.rotationLeft);
+
+  simulator.translationLeft  = simulator.rotationLeft.querySelector(".translationWrapper");
+  simulator.translationRight = simulator.rotationRight.querySelector(".translationWrapper");
 
   simulator.translationWidth = simulator.translationLeft.offsetWidth;
 
@@ -45,7 +48,7 @@ simulator.start = function () {
         simulator.translationLeft.style.left =  Math.round( ((360 - normalizedTranslation) / 360) * - (simulator.translationWidth / 2) ) + "px";
         simulator.translationRight.style.left = Math.round( ((360 - normalizedTranslation) / 360) * - (simulator.translationWidth / 2) ) + "px";
 
-        simulator.showDebugInfo(tiltLR,tiltFB,dir);
+       // simulator.showDebugInfo(el,tiltLR,tiltFB,dir);
 
     }, false);
   
@@ -55,13 +58,13 @@ simulator.start = function () {
      
 }
 
-simulator.showDebugInfo = function(tiltLR,tiltFB,dir){
+simulator.showDebugInfo = function(el,tiltLR,tiltFB,dir){
 
-  document.getElementById("debug").style.display = "block";
+  el.querySelector("#debug").style.display = "block";
 
-  document.getElementById("doTiltLR").innerHTML = Math.round(tiltLR);
-  document.getElementById("doTiltFB").innerHTML = Math.round(tiltFB);
-  document.getElementById("doDirection").innerHTML = Math.round(dir);
+  el.querySelector("#doTiltLR").innerHTML = Math.round(tiltLR);
+  el.querySelector("#doTiltFB").innerHTML = Math.round(tiltFB);
+  el.querySelector("#doDirection").innerHTML = Math.round(dir);
 
 }
 
