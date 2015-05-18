@@ -23,7 +23,9 @@ Phonon.Navigator({
 Phonon.Navigator().on({page: 'vrviewer', template: 'vrviewer', asynchronous: false}, function(activity) {
 
   activity.onCreate(function(self, el, req) {
-    console.log('vrviewer: onCreate');
+    
+    simulator.start();
+
   });
 
   activity.onReady(function(self, el, req) {
