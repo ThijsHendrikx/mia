@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="edu.fontys.sm.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="edu.fontys.sm.architry" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <preference name="loglevel" value="DEBUG" />
     <feature name="Whitelist">
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
@@ -9,7 +9,7 @@
         <param name="android-package" value="org.apache.cordova.deviceorientation.CompassListener" />
     </feature>
     <allow-intent href="market:*" />
-    <name>First app</name>
+    <name>Architry</name>
     <description>
         Virtual reality architecture visualisation
     </description>

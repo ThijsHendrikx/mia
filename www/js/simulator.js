@@ -16,10 +16,8 @@ simulator.translationWidth = 0;
 simulator.start = function (el) {
 
 
-  simulator.rotationLeft  = el.querySelector(".imgleft").querySelector(".rotationWrapper");
-  simulator.rotationRight = el.querySelector(".imgright").querySelector(".rotationWrapper");
-
-  alert(simulator.rotationLeft);
+  simulator.rotationLeft  = el.querySelector(".imgleft .rotationWrapper");
+  simulator.rotationRight = el.querySelector(".imgright .rotationWrapper");
 
   simulator.translationLeft  = simulator.rotationLeft.querySelector(".translationWrapper");
   simulator.translationRight = simulator.rotationRight.querySelector(".translationWrapper");
@@ -34,8 +32,8 @@ simulator.start = function (el) {
         var tiltFB = eventData.beta;
         var dir = eventData.alpha;
 
-        var normalizedRotation = simulator.currentRotation = simulator.currentRotation + ( (tiltFB - simulator.currentRotation) * .1);
-        var normalizedTranslation = simulator.currentTranslation = simulator.currentTranslation + ( (dir - simulator.currentTranslation) * .1);
+        var normalizedRotation = tiltFB;
+        var normalizedTranslation = dir;
 
         if( Math.abs(dir - simulator.currentTranslation) > 320){
           normalizedTranslation = dir;
@@ -48,7 +46,7 @@ simulator.start = function (el) {
         simulator.translationLeft.style.left =  Math.round( ((360 - normalizedTranslation) / 360) * - (simulator.translationWidth / 2) ) + "px";
         simulator.translationRight.style.left = Math.round( ((360 - normalizedTranslation) / 360) * - (simulator.translationWidth / 2) ) + "px";
 
-       // simulator.showDebugInfo(el,tiltLR,tiltFB,dir);
+        simulator.showDebugInfo(el,tiltLR,tiltFB,dir);
 
     }, false);
   
